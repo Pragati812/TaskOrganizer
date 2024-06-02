@@ -7,8 +7,8 @@ button.addEventListener('click', function (e) {
 
     const taskValue = taskText.value.trim(); // Trim the value to remove whitespace
 
-    if (taskValue.length > 10) {
-        alert('Length is greater than 10.');
+    if (taskValue.length > 20) {
+        alert('Length is greater than 20.');
         taskText.value = "";
         return; // Exit the function early if length is greater than 10
     }
